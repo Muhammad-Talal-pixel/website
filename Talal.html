@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style>
+        .nav-link {
+            display: flex;
+            color: white;
+            text-decoration: none;
+            transition: color .15s ease-in-out, background-color  .15s ease-in-out, border-color .15s ease-in-out;
+            
+            
+        }
+        .nav .active{
+            background-color: rgb(0, 54, 108) !important;
+        }
+
+        .nav-item {
+            color: white !important;
+            
+            
+        }
+       
+   
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .col-lg-6 {
+            padding-top: 50px;
+            text-align: center;
+            color: white !important;
+        }
+        .card-body{
+            text-align: center;
+        }
+        #about{
+            padding-top: 300px;
+        }
+        #about-text{
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            padding-bottom: 120px;
+            
+            
+        }
+        .card{
+           
+            height: 300px;
+            width: 300px;
+            
+        }
+        #checkout{
+            align-items: center !important;
+            padding-left: 30px !important;
+            
+        }
+        .form{
+   
+        text-align: center;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+        
+        }
+        .footer{
+            margin: 0;
+            margin-left: 0;
+            margin-right: 0;
+            /* height: 1000px; */
+            width: 1200px;
+            padding-left: 0;
+        }
+        #conn{
+            width: 1200px;
+            color: blue !important;
+        }
+        
+       
+       
+    </style>
+</head>
+
+<body style="background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(34,34,34,1) 35%, rgba(0,0,0,1) 100%);">
+    
+    <header class="d-flex flex-wrap justify-content-center py-3  border-bottom" style="background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 8%, rgb(86, 123, 118) 66%, rgb(34, 41, 59) 100%);">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-danger text-decoration-none">
+            <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap"></use>
+            </svg>
+            <span class="fs-4"
+                style="color: white; font-family: 'Times New Roman', Times, serif;">Texes Sports</span>
+        </a>
+
+        <ul class="nav nav-pills">
+            <li class="nav-item "><a href="#" class="nav-link active " aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Team</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Goods</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">order</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        </ul>
+    </header>
+    <main>
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <img src="https://student-cms.prd.timeshighereducation.com/sites/default/files/styles/default/public/different_sports.jpg?itok=CW5zK9vp" alt="" srcset="" width="100%" height="100%"><rect width="100%" height="100%" fill="#777"></rect>
+                <div class="container">
+                  <div class="carousel-caption text-start">
+                    <h1>Stay Competitive!
+                        Be UNDEFEATED!</h1>
+                    <p>Flash Sale !</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Purchase NOW</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://superblog.supercdn.cloud/site_cuid_clr6oh1no0006rmr89yhkxgu8/images/various-sport-equipments-generative-ai-1706958639790-compressed.jpg" alt="" srcset="" width="100%" height="100%"><rect width="100%" height="100%" fill="#777"></rect>
+        
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: blue;">Get upto 65% OFF!.</h1>
+                    <p style="font-family: Arial, Helvetica, sans-serif;">Texes sports are getting his 12th aniversary</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                 <img src="https://media.istockphoto.com/id/1188462138/photo/variety-of-sport-accessories-on-wooden-surface.jpg?s=612x612&w=0&k=20&c=y2l7DYNkxbVteZy-Kx_adCzm-soTRbiEypje4j8ENe0=" alt="" srcset="" width="100%" height="100%"><rect width="100%" height="100%" fill="#777"></rect>
+        
+                <div class="container">
+                  <div class="carousel-caption text-end">
+                    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;color: rgb(255, 0, 0);">New redeem Codes!</h1>
+                    <p>New Redeem Codes are avaible for more discounts!<a class="btn btn-lg btn-primary" href="#">Redeem</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="container px-4 py-5" id="custom-cards">
+            <h2 class="pb-2 border-bottom" style="color: rgb(64, 0, 255); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Categories</h2>
+        
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('https://media.istockphoto.com/id/177491473/photo/cricket-bat-and-ball.jpg?s=612x612&w=0&k=20&c=QqX5lbsHBUi7VZc4yLyeW52LVttKtZQ5e-LXEG-uKMI=');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Cricket</h2>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>Most Engaging</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>3d</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFvs2thGbint3FN0MgUO6H27HvEg9PJ3M4ag&s'); background-repeat: no-repeat;background-size: cover;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Football</h2>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>Popular</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>4d</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('https://static.vecteezy.com/system/resources/thumbnails/010/219/971/small/black-basketball-ball-with-cold-vapor-an-isolated-dark-studio-background-3d-render-photo.jpg'); background-repeat: no-repeat; background-size: cover; ">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Basketball</h2>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>Most Going</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>5d</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div >
+
+        <h1 class="pb-2 border-bottom" style="color: rgb(64, 0, 255); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"></h1>
+          <h1 id="menu" style="padding-top: 80px; text-align: center; font-weight: bold; color: red;">Sports Goods</h1>
+
+          <div class="row row-cols-1 row-cols-md-3 g-4" style="padding-top: 90px; padding-left: 70px;">
+              <div class="col">
+                <div class="card">
+                  <img src="https://plus.unsplash.com/premium_photo-1679690884144-1f43b8f3bf41?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Bat</h5>
+                    <p class="card-text">12$</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="https://images.unsplash.com/photo-1486286701208-1d58e9338013?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="..." height="365px">
+                  <div class="card-body">
+                    <h5 class="card-title">Football</h5>
+                    <p class="card-text">10$</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="https://images.unsplash.com/photo-1523142096306-cca37b5aa001?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BasketBall</h5>
+                    <p class="card-text">21$</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="https://plus.unsplash.com/premium_photo-1676790134915-790a6b69959f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="..."  height="365px">
+                  <div class="card-body">
+                    <h5 class="card-title">Hockey</h5>
+                    <p class="card-text">17$</p>
+                  </div>
+                </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                      <img src="https://images.unsplash.com/photo-1602211844066-d3bb556e983b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cmFja2V0fGVufDB8fDB8fHww" class="card-img-top" alt="..."  height="365px">
+                      <div class="card-body">
+                        <h5 class="card-title">Racket</h5>
+                        <p class="card-text">12$</p>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                          <img src="https://media.istockphoto.com/id/1929753525/photo/football-on-the-field-near-the-fifty.webp?a=1&b=1&s=612x612&w=0&k=20&c=3LseDkNQOGr4o2-rF9SvL8qHpuTgZAp_Sem85nBAxqI=" class="card-img-top" alt="..."  height="365px">
+                          <div class="card-body">
+                            <h5 class="card-title">American Football</h5>
+                            <p class="card-text">20$</p>
+                          </div>
+                    </div>
+                </div>
+
+
+                <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+                    <div class="row align-items-center g-lg-5 py-5">
+                      <div class="col-lg-7 text-center text-lg-start">
+                        <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3" style="color: rgb(0, 64, 255);">Sign-Up Now to get Further Updates and Redeem Codes</h1>
+                        <p class="col-lg-10 fs-4" style="color: white;">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+                      </div>
+
+                      <div class="col-md-10 mx-auto col-lg-5" id="cart">
+                        <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+                          <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                          </div>
+                          <div class="form-floating mb-3">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                          </div>
+                          <div class="checkbox mb-3">
+                            <label>
+                              <input type="checkbox" value="remember-me" style="color: white !important;"> Remember me</label>
+                          </div>
+                          <button class="w-1000 btn btn-lg btn-primary" type="submit" style="color: white;">Sign up</button>
+                          <hr class="my-4">
+                          <small class="text-body-secondary" style="color: white;">By clicking Sign up, you agree to the terms of use.</small>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row g-5" id="conn">
+                    <div class="col-md-5 col-lg-4 order-md-last">
+                      <h4 class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="text-primary">Your cart</span>
+                        <span class="badge bg-primary rounded-pill">3</span>
+                      </h4>
+                      <ul class="list-group mb-3">
+                        <li class="list-group-item d-flex justify-content-between lh-sm">
+                          <div>
+                            <h6 class="my-0">Product name</h6>
+                            <small class="text-muted">Brief description</small>
+                          </div>
+                          <span class="text-muted">$12</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between lh-sm">
+                          <div>
+                            <h6 class="my-0">Second product</h6>
+                            <small class="text-muted">Brief description</small>
+                          </div>
+                          <span class="text-muted">$8</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between lh-sm">
+                          <div>
+                            <h6 class="my-0">Third item</h6>
+                            <small class="text-muted">Brief description</small>
+                          </div>
+                          <span class="text-muted">$5</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between bg-light">
+                          <div class="text-success">
+                            <h6 class="my-0">Promo code</h6>
+                            <small>EXAMPLECODE</small>
+                          </div>
+                          <span class="text-success">−$5</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between">
+                          <span>Total (USD)</span>
+                          <strong>$20</strong>
+                        </li>
+                      </ul>
+              
+                      <form class="card p-2">
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Promo code">
+                          <button type="submit" class="btn btn-secondary">Redeem</button>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="col-md-7 col-lg-8">
+                      <h4 class="mb-3">Billing address</h4>
+                      <form class="needs-validation" novalidate="">
+                        <div class="row g-3">
+                          <div class="col-sm-6">
+                            <label for="firstName" class="form-label">First name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                            <div class="invalid-feedback">
+                              Valid first name is required.
+                            </div>
+                          </div>
+              
+                          <div class="col-sm-6">
+                            <label for="lastName" class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                            <div class="invalid-feedback">
+                              Valid last name is required.
+                            </div>
+                          </div>
+              
+                          <div class="col-12">
+                            <label for="username" class="form-label">Username</label>
+                            <div class="input-group has-validation">
+                              <span class="input-group-text">@</span>
+                              <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                            <div class="invalid-feedback">
+                                Your username is required.
+                              </div>
+                            </div>
+                          </div>
+              
+                          <div class="col-12">
+                            <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                            <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                            <div class="invalid-feedback">
+                              Please enter a valid email address for shipping updates.
+                            </div>
+                          </div>
+              
+                          <div class="col-12">
+                            <label for="address" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                            <div class="invalid-feedback">
+                              Please enter your shipping address.
+                            </div>
+                          </div>
+              
+                          <div class="col-12">
+                            <label for="address2" class="form-label">Address 2 <span class="text-muted">(Optional)</span></label>
+                            <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                          </div>
+              
+                          <div class="col-md-5">
+                            <label for="country" class="form-label">Country</label>
+                            <select class="form-select" id="country" required="">
+                              <option value="">Choose...</option>
+                              <option>United States</option>
+                            </select>
+                            <div class="invalid-feedback">
+                              Please select a valid country.
+                            </div>
+                          </div>
+              
+                          <div class="col-md-4">
+                            <label for="state" class="form-label">State</label>
+                            <select class="form-select" id="state" required="">
+                              <option value="">Choose...</option>
+                              <option>California</option>
+                            </select>
+                            <div class="invalid-feedback">
+                              Please provide a valid state.
+                            </div>
+                          </div>
+              
+                          <div class="col-md-3">
+                            <label for="zip" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="zip" placeholder="" required="">
+                            <div class="invalid-feedback">
+                              Zip code required.
+                            </div>
+                          </div>
+                        </div>
+              
+                        <hr class="my-4">
+              
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="same-address">
+                          <label class="form-check-label" for="same-address">Shipping address is the same as my billing address</label>
+                        </div>
+              
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="save-info">
+                          <label class="form-check-label" for="save-info">Save this information for next time</label>
+                        </div>
+              
+                        <hr class="my-4">
+              
+                        <h4 class="mb-3">Payment</h4>
+              
+                        <div class="my-3">
+                          <div class="form-check">
+                            <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
+                            <label class="form-check-label" for="credit">Credit card</label>
+                          </div>
+                          <div class="form-check">
+                            <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+                            <label class="form-check-label" for="debit">Debit card</label>
+                          </div>
+                          <div class="form-check">
+                            <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
+                            <label class="form-check-label" for="paypal">PayPal</label>
+                          </div>
+                        </div>
+              
+                        <div class="row gy-3">
+                          <div class="col-md-6">
+                            <label for="cc-name" class="form-label">Name on card</label>
+                            <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+                            <small class="text-muted">Full name as displayed on card</small>
+                            <div class="invalid-feedback">
+                              Name on card is required
+                            </div>
+                          </div>
+              
+                          <div class="col-md-6">
+                            <label for="cc-number" class="form-label">Credit card number</label>
+                            <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                            <div class="invalid-feedback">
+                              Credit card number is required
+                            </div>
+                          </div>
+              
+                          <div class="col-md-3">
+                            <label for="cc-expiration" class="form-label">Expiration</label>
+                            <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+                            <div class="invalid-feedback">
+                              Expiration date required
+                            </div>
+                          </div>
+              
+                          <div class="col-md-3">
+                            <label for="cc-cvv" class="form-label">CVV</label>
+                            <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+                            <div class="invalid-feedback">
+                              Security code required
+                            </div>
+                          </div>
+                        </div>
+              
+                        <hr class="my-4">
+              
+                        <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+                      </form>
+                    </div>
+                  </div>
+                  
+                  
+
+                  <footer class="footer">
+                    
+                    <h4 style="text-align: center; color: #0022ff; padding-top: 20px;">CONTACT US</h4>
+                    <form action="" class="form">
+                        <label for="" style="color: #0022ff;">Name</label>
+                        <input type="text" name="" id="" placeholder="Enter Your Name"><br><br>
+                        <label for="" style="color:  #0022ff;">Email</label>
+                        <input type="email" name="" id="" placeholder="Enter your  Email"><br><br>
+                        <label for="" style="color:  #0022ff;"> Number</label>
+                        <input type="tel" name="" id="" placeholder="Enter Your Phone Number" pattern="[0-9]{4}-[0-9{7}]"><br><br>
+                        <label for="" style="color:  #0022ff;">comment</label>
+                        <textarea name="container" id="">enter your comment</textarea>
+                    </form><br>
+                    <h1 class="pb-2 border-bottom" style="color: rgb(64, 0, 255); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"></h1>
+                    
+                    <p class="float-end"><a href="#">Back to top</a></p>
+        
+                    <p style="color: white;">© 2017–2021 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+                </footer>
+            </main>
+            
+</body>
+</html>
